@@ -1,6 +1,6 @@
 {
     "fetcher": {
-        "scoreboard_url": "http://scoreboard.ioi2017.org",
+        "scoreboard_url": "https://ranking.ioi2025.bo",
         "retries": 5,
         "first_retry_delay": "0.2s",
         "retry_delay_exponent": 1.7
@@ -10,54 +10,40 @@
     },
     "participants": [
         {
-            "login": "RUS_2d1",
-            "name": "Aleksandra Drozdova"
+            "login": "KAZ1",
+            "name": "Mansur Mamadakhunov"
         },
         {
-            "login": "RUS_2d2",
-            "name": "Egor Lifar"
+            "login": "KAZ2",
+            "name": "Maxim Tsoy"
         },
         {
-            "login": "RUS_2d3",
-            "name": "Vladimir Romanov"
+            "login": "KAZ3",
+            "name": "Akezhan Askar"
         },
         {
-            "login": "RUS_2d4",
-            "name": "Denis Shpakovskii"
+            "login": "KAZ4",
+            "name": "Dauzhan Beketov"
         }
     ],
     "problems": [
         {
-            "id": "nowruz",
-            "name": "nowruz",
-            "fractional_scoring": true,
-            "mute": true
-        },
-        {
-            "id": "wiring",
-            "name": "wiring",
-            "mute": true
-        },
-        {
-            "id": "train",
-            "name": "train",
-            "mute": true
-        },
-        {
-            "id": "prize",
-            "name": "prize",
+            "id": "souvenirs",
+            "name": "souvenirs",
             "fractional_scoring": true
         },
         {
-            "id": "simurgh",
-            "name": "simurgh"
+            "id": "triples",
+            "name": "triples"
         },
         {
-            "id": "books",
-            "name": "books"
+            "id": "worldmap",
+            "name": "worldmap",
+            "fractional_scoring": true
         }
     ],
-    "contest_start_time": "2019-08-06 08:00:00",
-    "main_chat": "@ioi_watch_test",
-    "positive_chat": "@positive_ioi_watch_test"
+
+    "contest_start_time": "2025-07-30 14:00:00",
+    "main_chat": "@ioi_kaz_team_scoreboard_main",
+    "positive_chat": "@ioi_kaz_team_scoreboard"
 }

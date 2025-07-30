@@ -6,8 +6,9 @@ import requests
 import pytimeparse
 import time
 import sys
+import os
 
-from tokent import TOKEN
+TOKEN = os.environ['TELEGRAM_BOT_TOKEN']
 from collections import defaultdict
 from operator import itemgetter
 
@@ -266,6 +267,7 @@ def main():
 
     problems_ordered = [problem['id'] for problem in config['problems']]
     for participant in config['participants']:
+        print(participant)
         login, name = [participant[x] for x in ['login', 'name']]
         points = [(state.get_points(login, problem, use_fractional_scoring[problem]), problem) for problem in problems_ordered]
         diff, result = scoreboard.get_result(login)

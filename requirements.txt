@@ -1,0 +1,6 @@
+# Requirements for Scoreboard Watcher Bot
+# HTTP requests library for API calls
+requests>=2.25.0
+
+# Time parsing library for retry delays
+pytimeparse>=1.1.8 
