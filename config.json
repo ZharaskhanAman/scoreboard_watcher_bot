@@ -51,7 +51,8 @@
         },
         {
             "id": "migrations",
-            "name": "migrations"
+            "name": "migrations",
+            "fractional_scoring": true
         },
 
         {
