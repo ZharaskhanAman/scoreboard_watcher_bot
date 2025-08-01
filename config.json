@@ -30,20 +30,37 @@
         {
             "id": "souvenirs",
             "name": "souvenirs",
-            "fractional_scoring": true
+            "fractional_scoring": true,
+            "mute": true
         },
         {
             "id": "triples",
-            "name": "triples"
+            "name": "triples",
+            "mute": true
         },
         {
             "id": "worldmap",
             "name": "worldmap",
-            "fractional_scoring": true
+            "fractional_scoring": true,
+            "mute": true
+        },
+
+        {
+            "id": "festival",
+            "name": "festival"
+        },
+        {
+            "id": "migrations",
+            "name": "migrations"
+        },
+
+        {
+            "id": "obstacles",
+            "name": "obstacles"
         }
     ],
 
-    "contest_start_time": "2025-07-30 14:00:00",
+    "contest_start_time": "2025-08-01 14:00:00",
     "main_chat": "@ioi_kaz_team_scoreboard_main",
     "positive_chat": "@ioi_kaz_team_scoreboard"
 }
